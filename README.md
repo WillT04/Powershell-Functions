@@ -7,10 +7,10 @@
 ### Open projects folder:
 1. Run "projects" (alias: "p") from PowerShell
 2. You will navigate into your projects folder in PowerShell
-##### Open tracked project folder
+###### Open tracked project folder
 1. Run "projects tracked" (alias: "projects t") from PowerShell
 2. You will navigate into the tracked projects folder in PowerShell
-##### Open tracked project folder
+###### Open tracked project folder
 1. Run "projects untracked" (alias: "projects u") from PowerShell
 2. You will navigate into the untracked projects folder in PowerShell
 
