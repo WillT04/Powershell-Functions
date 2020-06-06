@@ -5,7 +5,7 @@
 # End of variables to change
 
 
-function projects {
+function Open-Projects {
     param (
         [String] $directory
     )
@@ -22,7 +22,7 @@ function projects {
 }
 
 
-function touch {
+function New-File {
 	param (
 		[String] $name
     )
@@ -32,4 +32,7 @@ function touch {
 
 
 # Aliases
-Set-Alias -Name p -Value projects
+Set-Alias -Name projects -Value Open-Projects
+Set-Alias -Name p -Value Open-Projects
+
+Set-Alias -Name touch -Value New-File
