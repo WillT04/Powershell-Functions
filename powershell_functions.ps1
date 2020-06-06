@@ -30,9 +30,15 @@ function New-File {
 	New-Item -path $name -ItemType File | Out-Null
 }
 
+function Open-Idea {
+    idea64
+}
+
 
 # Aliases
 Set-Alias -Name projects -Value Open-Projects
 Set-Alias -Name p -Value Open-Projects
 
 Set-Alias -Name touch -Value New-File
+
+Set-Alias -Name id -Value Open-Idea
